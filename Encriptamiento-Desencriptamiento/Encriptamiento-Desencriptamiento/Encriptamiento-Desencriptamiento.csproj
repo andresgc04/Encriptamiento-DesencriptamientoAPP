@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Encriptamiento_Desencriptamiento</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="EncryptAndDecrypt">
+      <HintPath>..\..\..\..\..\source\repos\EncryptAndDecrypt\EncryptAndDecrypt\bin\Debug\EncryptAndDecrypt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
