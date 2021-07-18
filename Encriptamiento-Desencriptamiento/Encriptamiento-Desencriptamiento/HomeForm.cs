@@ -14,6 +14,9 @@ namespace Encriptamiento_Desencriptamiento
     {
         //Instanciar Formulario para encriptar informaciones:
         EncryptForm encryptForm;
+
+        //Instanciar Formulario para desencriptar informaciones:
+        DecryptForm decryptForm;
         public HomeForm()
         {
             InitializeComponent();
@@ -24,6 +27,13 @@ namespace Encriptamiento_Desencriptamiento
             encryptForm = new EncryptForm();
 
             encryptForm.ShowDialog();
+        }
+
+        private void btnOpenDecryptForm_Click(object sender, EventArgs e)
+        {
+            decryptForm = new DecryptForm();
+
+            decryptForm.ShowDialog();
         }
     }
 }

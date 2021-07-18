@@ -68,6 +68,7 @@ namespace Encriptamiento_Desencriptamiento
             this.btnOpenDecryptForm.TabIndex = 1;
             this.btnOpenDecryptForm.Text = "Desencriptar Data";
             this.btnOpenDecryptForm.UseVisualStyleBackColor = true;
+            this.btnOpenDecryptForm.Click += new System.EventHandler(this.btnOpenDecryptForm_Click);
             // 
             // label1
             // 
