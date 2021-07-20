@@ -67,12 +67,14 @@ namespace Encriptamiento_Desencriptamiento
             this.abrirArchivoToolStripMenuItem.Name = "abrirArchivoToolStripMenuItem";
             this.abrirArchivoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.abrirArchivoToolStripMenuItem.Text = "Abrir archivo";
+            this.abrirArchivoToolStripMenuItem.Click += new System.EventHandler(this.abrirArchivoToolStripMenuItem_Click);
             // 
             // guardarArchivoToolStripMenuItem
             // 
             this.guardarArchivoToolStripMenuItem.Name = "guardarArchivoToolStripMenuItem";
             this.guardarArchivoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.guardarArchivoToolStripMenuItem.Text = "Guardar archivo";
+            this.guardarArchivoToolStripMenuItem.Click += new System.EventHandler(this.guardarArchivoToolStripMenuItem_Click);
             // 
             // lblIngreseLoQueDeseeDesencriptar
             // 
@@ -129,6 +131,7 @@ namespace Encriptamiento_Desencriptamiento
             this.btnDecrypt.TabIndex = 5;
             this.btnDecrypt.Text = "Desencriptar";
             this.btnDecrypt.UseVisualStyleBackColor = true;
+            this.btnDecrypt.Click += new System.EventHandler(this.btnDecrypt_Click);
             // 
             // btnClipboard
             // 
@@ -141,6 +144,7 @@ namespace Encriptamiento_Desencriptamiento
             this.btnClipboard.TabIndex = 6;
             this.btnClipboard.Text = "Copiar en el porta papeles";
             this.btnClipboard.UseVisualStyleBackColor = true;
+            this.btnClipboard.Click += new System.EventHandler(this.btnClipboard_Click);
             // 
             // btnClear
             // 
@@ -153,6 +157,7 @@ namespace Encriptamiento_Desencriptamiento
             this.btnClear.TabIndex = 7;
             this.btnClear.Text = "Limpiar";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // DecryptForm
             // 
